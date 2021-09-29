@@ -1,6 +1,6 @@
 public struct MyTestLib {
-    public private(set) var text = "Hello, World!"
-
-    public init() {
+    public func testHello() -> Bool {
+        print("hello!")
+        return true
     }
 }
